@@ -1,0 +1,29 @@
+{
+  "name": "core-algorithms",
+  "version": "1.0.0",
+  "description": "Classic ",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "mocha --compilers js:babel-register ./spec/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eobaah/core-algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eobaah/core-algorithms/issues"
+  },
+  "homepage": "https://github.com/eobaah/core-algorithms#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "chai-change": "^2.1.2",
+    "eslint": "^3.19.0",
+    "mocha": "^3.3.0"
+  }
+}
