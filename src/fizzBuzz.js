@@ -16,5 +16,3 @@ export default function fizzBuzz() {
   }
   return numsArray
 }
-
-fizzBuzz()

@@ -10,7 +10,7 @@ describe('fizzBuzz()', function(){
     expect(fizzBuzz).to.be.a('function')
   })
 
-  it.only('Checks index and replaces multiples of both 3 AND 5 with FizzBuzz and then only multiples of 3 with Fizz or only multiples of 5 with Buzz', function(){
+  it('Checks index and replaces multiples of both 3 AND 5 with FizzBuzz and then only multiples of 3 with Fizz or only multiples of 5 with Buzz', function(){
     fizzBuzz()
     expect( fizzBuzz()[3] ).to.equal('Fizz')
     expect( fizzBuzz()[5] ).to.equal('Buzz')
