@@ -7,7 +7,7 @@ chai.use(chaiChange)
 describe('factorial()', function(){
 
   it('should be a function', function(){
-    expect(factorial()).to.be.a('function')
+    expect(factorial).to.be.a('function')
   })
   it('Checks 5 factorial', function(){
     expect( factorial(5) ).to.equal(120)
